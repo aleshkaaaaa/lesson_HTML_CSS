@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+    padding: 18px 0 18px 0;
+}
+
+.header__left,
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__item:not(:last-child) {
+    margin: 0 33px 0 0;
+}
+
+.intro {
+    background: #F1E4E6;
+    height: 764px;
+}
+
+.intro__wrap {
+    position: relative;
+    display: flex;
+    height: 100%;
+    background: url(./img/intro__background.png) no-repeat;
+    background-position: -214px 0;
+}
+
+.intro__text {
+    padding: 0 0 0 16px;
+    position: absolute;
+    margin: 290px 0px 381px 679px ;
+    width: 40%;
+    border-left: 12px solid #F16D7F;
+}
+
+.intro__text h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 57,6px;
+}
+
+.intro__text p {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 44,4px;
+}
+
+.sections {
+    height: 470px;
+    margin: 65px 0 96px 0;
+}
+
+.sections__wrap {
+    height: 100%;
+}
+.sections__top {
+    display: flex;
+}
+
+.sections__block {
+    height: 260px;
+    width: 360px;
+    position: relative;
+
+}
+
+.sections__block:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+
+.block__1 {
+    background: url(./img/for__women.png);
+}
+
+.block__2 {
+    background: url(./img/for__men.png);
+}
+
+.block__3 {
+    background: url(./img/for__kids.png);
+}
+
+.block__text__top {
+    padding: 110px 0 0 0;
+}
+
+.discount {
+    color: #F1E4E6;
+}
+
+.sections__under {
+    padding: 30px 0 0 0;
+}
+
+.block__4 {
+    background: url(./img/accesories.png);
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.block__text__under {
+    padding: 70px 0 0 0;
+
+}
+
+.block__text__top__p__top {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19,2px;
+    text-align: center;
+    color: white;
+}
+
+.block__text__top__p__under {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28,8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.items {
+    height: 1469px;
+}
+
+.items__wrap {
+    height: 100%;
+}
+
+.head__text h1,
+.head__text p{
+    text-align: center;
+}
+
+.head__text h1 {
+    font-family: Lato;
+    font-style: Regular;
+    Font-size: 30px;
+    Line-height: 36px;
+    Line-height: 100%;
+    text-align: center;
+    color: #222222;
+    margin: 0 0 6px 0;
+}
+
+.head__text p {
+    font-family: Lato;
+    font-family: Regular;
+    font-family: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    color: #9F9F9F;
+}
+
+.items__body {
+    margin: 48px 0 48px 0;
+}
+
+.line__1,
+.line__2 {
+    display: flex;
+}
+
+.line__1 {
+    margin: 0 0 30px 0;
+}
+
+.item__to__sell {
+    width: 360px;
+    height: 581px;
+}
+
+.item__to__sell:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+
+.item__photo {
+    width: 100%;
+    height: 420px;
+}
+
+.item__photo__1 {
+    background: url(./img/item__1.png);
+}
+.item__photo__2 {
+    background: url(./img/item__6.png);
+}
+.item__photo__3 {
+    background: url(./img/item__3.png);
+}
+.item__photo__4 {
+    background: url(./img/item__3.png);
+}
+.item__photo__5 {
+    background: url(./img/item__5.png);
+}
+.item__photo__6 {
+    background: url(./img/item__6.png);
+}
+
+.item__text {
+    padding: 24px 29px 20px 16px;
+    width: 100%;
+    height: 161px;
+    background-color: #F8F8F8;
+}
+
+.item__text__name {
+    margin: 0 0 12px 0;
+    font-family: Lato;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align: left;
+}
+
+.item__text__description {
+    margin: 0 0 17px 0;
+    font-family: Lato;
+    font-style: light;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    color: #5D5D5D;
+}
+
+.item__text__price {
+    font-family: Lato;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: left;
+    color: #F16D7F;
+}
+
+.items__button {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    margin: 0 0 0 475px;
+    background: transparent;
+    border: 1px solid #F26376;
+    color: #F26376;
+    padding: 14px 38px 14px 38px;
+}
+
+.top__footer {
+    height: 341px;
+    background: url(./img/background__under__button.png);
+}
+
+.top__footer__wrap {
+    height: 100%;
+}
+
+.all__promo {
+    height: 100%;
+    display: flex;
+    padding: 103px 0 104px 0;
+}
+
+.promo {
+    width: 360px;
+    height: 134px;
+}
+
+.promo:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+
+.promo__icon {
+    height: 41px;
+    margin: 0 154px 0 158px;
+}
+
+.icon__1 {
+    background: url(./img/delivery.svg) no-repeat;
+}
+
+.icon__2 {
+    background: url(./img/sales.svg) no-repeat;
+}
+
+.icon__3 {
+    background: url(./img/assurance.svg) no-repeat;
+}
+
+.promo__text {
+    height: 101px;
+    padding: 28px 0 0 0;
+}
+
+.promo__text__top {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-style: Regular;
+    font-size: 19.96px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+.promo__text__under {
+    font-family: Lato;
+    font-style: Light;
+    font-size: 13.97px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    opacity: 0.5;
+}
+
+.mid__footer {
+    height: 448px;
+    background: url(./img/background__under__button__2.png) no-repeat;
+    background-size: 100%;
+    background-position-y: -38px;
+}
+
+.mid__footer__wrap {
+    height: 100%;
+}
+
+.bottom__footer {
+    height: 79px;
+    background: url(./img/background__under__button__3.png);
+}
+
+.bottom__footer__wrap {
+    padding: 24px 0 23px 0;
+    display: flex;
+}
+
+.bottom__footer__text {
+    padding: 6px 0 0 0;
+}
+
+.bottom__footer__text p {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19,2px;
+    color: #FBFBFB;
+}
+
+.bootom__footer__contacts {
+    display: flex;
+    margin: 0 0 0 767px;
+}
+
+.contact {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    
+}
+
+.contact:not(:last-child) {
+    margin: 0 8px 0 0;
+}
+
+.contact__1 {
+    padding: 8px 11px 8px 11px;
+}
+
+.contact__2 {
+    padding: 8px 11px 8px 9px;
+}
+
+.contact__3 {
+    padding: 8px 11px 8px 10px;
+}
+
+.contact__4 {
+    padding: 8px 11px 8px 9px;
+}
