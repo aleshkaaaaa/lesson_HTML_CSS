@@ -733,3 +733,309 @@ margin: 0 0 0 0;
 .footer {
     margin: 128px 0 0 0;
 }
+
+
+
+
+
+
+
+
+/* cart */
+
+
+.cart {
+    height: 1000px;
+}
+
+.cart__wrap {
+    display: flex;
+    height: 100%;
+    padding: 96px 0 128px 0;
+}
+
+.cart__wrap__left {
+    height: 775px;
+    width: 652px;
+}
+
+.cart__wrap__right {
+    height: 775px;
+    width: 360px;
+    margin: 0 0 0 128px;
+}
+
+.cart__item {
+    box-shadow: 15px 15px 20px #E5E5E5;
+    display: flex;
+    height: 306px;
+}
+
+.cart__item__info {
+    padding: 22px 0 0 31px;
+}
+
+.cart__item__info h2 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+
+.cart__h2__1 {
+    margin: 0 0 2px 0;
+}
+
+.cart__h2__2 {
+    margin: 0 0 42px 0;
+}
+
+.X {
+    margin:0 22px 0 132px;
+}
+.cart__item__info p {
+    padding: 0 0 6px 0;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.quality__num {
+    height: 25px;
+    width: 44px;
+    padding: 1px 0 2px 0;
+    margin: 0 0 0 25px;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #656565;
+}
+
+.first__line {
+    margin: 0 0 40px 0;
+}
+
+.second__line {
+    margin: 0 0 72px 0;
+}
+
+.third__line {
+    height: 50px;
+    display: flex;
+}
+
+.cart__leftButton__1 {
+    margin: 0 186px 0 0;
+}
+
+.leftButton__cart {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #A4A4A4;
+    padding: 17px 40px 16px 40px;
+}
+
+.cart__right__top {
+    height: 285px;
+    width: 360px;
+    margin: 17px 0 57px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__right__top h3 {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin: 0 0 20px 0;
+}
+
+.input__cart__right {
+    padding: 13px 17px 16px 17px;
+    margin: 0 0 20px 0;
+}
+
+.get_a_quote {
+    height: 42px;
+    width: 133px;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    border: 1px solid #A4A4A4;
+    padding: 10px 14px 11px 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart__right__bottom {
+    height: 214px;
+    width: 360px;
+    background-color: #F5F3F3;
+    padding: 40px 42px 40px 42px;
+}
+
+.cart__right__bottom h3{
+    margin: 0 0 12px 176px;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.cart__right__bottom h4{
+    margin: 0 0 21px 111px;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.PROCEED_TO_CHECKOUT {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 15px 42px 16px 42px;
+    background-color: #F16D7F;
+    text-decoration: none;
+}
+
+
+
+
+/* registration */
+
+
+.registration {
+    height: 675px;
+}
+
+.registration__wrap {
+    height: 100%;
+    padding: 64px 0 96px 0;
+    display: flex;
+}
+
+.registration__left {
+    width: 360px;
+    margin: 0 128px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__left h2 {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin: 0 0 20px 0;
+}
+
+.input__reg {
+    padding: 13px 17px 16px 17px;
+    margin: 0 0 20px 0;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #B1B1B1;
+}
+
+.radio {
+    display: flex;
+    margin: 20px 0 33px 0;
+}
+
+.gender {
+    margin: 0 10px 0 0;
+}
+
+.first__gender {
+    margin: 0 20px 0 0;
+}
+
+.registration__left p {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.join__now {
+    height: 50px;
+    width: 167px;
+    padding: 15px 28px 16px 28px;
+    background-color: #F16D7F;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 40px 0 0 0;
+}
+
+.registration__right {
+    width: 652px;
+}
+
+.registration__right h3 {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0 0 22px 0;
+}
+
+.registration__right h4 {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0 0 21px 0;
+}
+
+.registration__right p {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0 0 16px 0;
+}
